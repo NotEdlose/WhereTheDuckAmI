@@ -1,0 +1,41 @@
+/**
+
+*A class representing a layer of POIs (Points of Interest).
+*Layers contain a set of POIs, a name, and a highlight status.
+*/
+/**
+*setName:
+ * Sets the name of this layer.
+ * @param name the new name for the layer
+ */
+/**
+*getName:
+ * Returns the name of this layer.
+ * @return the name of this layer
+ */
+ /**
+*updateName:
+ * Updates the name of this layer to the given name.
+ * @param name the new name for the layer
+ */
+/**
+*addPOI:
+ * Adds the given POI to this layer's set of POIs.
+ * @param poiAdd the POI to add to the layer
+ */
+/**
+*deletePOI:
+ * Removes the given POI from this layer's set of POIs.
+ * @param poiDelete the POI to remove from the layer
+ */
+/**
+*getPOI:
+ * Returns the ith POI in this layer's set of POIs.
+ * @param i the index of the POI to get
+ * @return the ith POI in the layer's set of POIs
+ */
+/**
+*getNumPOIs:
+ * Returns the number of POIs in this layer.
+ * @return the number of POIs in this layer
+ */

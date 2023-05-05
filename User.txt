@@ -1,0 +1,61 @@
+/**
+ * User.java
+ * This class contains user information representing all users.
+ * @author Ellen
+ */
+/**
+User:
+The User class represents a user of the navigation system.
+*/
+/**
+*User:
+*Constructs a User object with a specified username and default password.
+*@param username the user's username
+*/
+/**
+*User:
+*Constructs a User object with a specified username and password.
+*@param username the user's username
+*@param pwd the user's password
+*/  
+/** getUserName:
+    *Method to get username of user. 
+    * @return username
+    */
+/** Method to set username of user. 
+    * @param uname               user's username
+    */
+ /** Method to get password of user. 
+    * @return password
+    */
+/** Method to set password of user. 
+    * @param pwd               user's password
+    */
+/** VerifyLogin:
+    Method to verify user login. 
+    * @param username               user's username
+    * @param pwd                        user's password
+    * @return true or false
+    */
+/** addFavoritePOI:
+    Method to add favorite POIs. 
+    * @param poi        POI object
+    */
+/** deleteFavouritePOI:
+    *Method to delete favorite POIs. 
+    * @param poi        POI object
+    */
+/** getFavouritePOIs: Method to create user-defined POIs. 
+    * @param name               POI name
+    * @param roomNum         POI room number
+    * @param type                 POI type
+    * @param descrip             POI description
+    */
+/** removeUserDefinedPOIs:
+    Method to remove user-defined POIs. 
+    * @param name               POI name
+    */
+/** UserReader: Method to read the user information (e.g., favorite POIs and user-defined POIs from JSON file into the user object.
+    * @param POINameToObject            hashmap objects with POI name as key and POI as name
+    */
+/** Logout: Method to save user information in memory by writing it into a JSON file after the user logs out. */

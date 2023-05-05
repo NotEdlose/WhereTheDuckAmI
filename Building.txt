@@ -1,0 +1,106 @@
+/**
+ * Building.java
+*This class contains the skeleton of information of all building objects.
+*This class has methods to get and set the building name, acronym, location, description,
+*number of floors and list of floors. It also has methods to read building information
+from a JSON file and update the building location.
+ * @author Xavier
+ */
+
+/** Building:
+    * Creates an instance of the Building class with a given acronym.
+    * 
+    * @param acronym - the acronym of the building
+    */
+
+
+/** Building: 
+    * Creates an instance of the Building class with given building name and acronym.
+    * 
+    * @param name - the name of the building
+    * @param acronym - the acronym of the building
+    */
+    /* Constructor: Creates a building instance defining its building name and acronym. */ 
+
+/** *setBuildingName:
+
+    *Method to set name of building. 
+    * @param name               building's name
+    */
+
+
+/** *getBuildingName:
+    *Method to set name of building. 
+    * @param name               building's name
+    */
+
+
+/** *setBuildingAacronym:
+    *Method to set acronym of building. 
+    * @param a               building's acronym
+    */
+
+/** 
+    *getBuildingAacronym:
+    *Method to get acronym of building. 
+    * @return acronym
+    */
+/** *setBuildingLoca:
+
+    *Method to set map location. 
+    * @param x               map's x coordinate
+    * @param y               map's y coordinate
+    */
+
+
+/** updateBuildingLoca:
+    * Updates the location of the building on the map.
+    * 
+    * @return an integer array containing the updated x and y coordinates of the building on the map
+    */
+
+
+/** setDes:
+ * Sets the description of the building.
+ * 
+ * @param description - the description of the building
+ */
+
+/**
+
+getDes:
+Returns the description of the building.
+@return A String representing the description of the building.
+*/
+
+
+/**
+getNumFloors:
+Returns the number of floors in the building.
+@return An integer representing the number of floors in the building.
+*/
+
+
+/** getFloors:
+Returns a list of floors in the building.
+@return A List of Floor objects representing the floors in the building.
+*/
+
+
+/**
+addFloor:
+Adds a new floor to the building.
+@param f A Floor object representing the new floor to be added to the building.
+*/
+
+
+    /**
+
+buildingReader:
+Reads building information from a JSON file and creates a Building object.
+@param POINameToObject A HashMap that maps POI names to POI objects.
+@throws FileNotFoundException if the specified file does not exist.
+@throws IOException if there is an I/O error while reading the file.
+@throws URISyntaxException if there is an error in the URI syntax.
+@throws ParseException if there is an error while parsing the JSON object.
+/

@@ -1,0 +1,91 @@
+/**
+
+*A point of interest (POI) represents a location on a map with a name, a number, a type, a highlight status, a description, and x and y *coordinates.
+*/
+/**
+*POI:
+*Constructs a POI object with a name, room number, and type.
+*@param name the name of the POI
+*@param roomNum the room number of the POI
+*@param type the type of the POI
+*/
+
+/**
+*POI:
+*Constructs a POI object with a name, room number, type, and x and y coordinates.
+*@param name the name of the POI
+*@param roomNum the room number of the POI
+*@param type the type of the POI
+*@param x the x-coordinate of the POI
+*@param y the y-coordinate of the POI
+*/
+/**
+*POI:
+*Constructs a POI object with a name, room number, type, highlight status, description, and x and y coordinates.
+*@param POIname the name of the POI
+*@param roomNum the room number of the POI
+*@param type the type of the POI
+*@param highlight the highlight status of the POI
+*@param description the description of the POI
+*@param x the x-coordinate of the POI
+*@param y the y-coordinate of the POI
+*/
+/**
+*setName:
+*Sets the name of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getName:
+*gets the name of the POI.
+*@param name the new name of the POI
+*/
+*setNum:
+*Sets the num of the POI.
+*@param name the new name of the POI
+*/ 
+/**
+*getNum:
+*gets the HI of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getHI:
+*gets the HI of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getDes:
+*gets the description of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getType;
+*gets the type of the POI.
+*@param name the new name of the POI
+*/
+/**
+*setType:
+*Sets the type of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getX:
+*gets the x of the POI.
+*@param name the new name of the POI
+*/
+/**
+*getY:
+*gets the y of the POI.
+*@param name the new name of the POI
+*/
+/**
+*setX:
+*sets the x of the POI.
+*@param name the new name of the POI
+*/
+/**
+*setY:
+*gets the y of the POI.
+*@param name the new name of the POI
+*/

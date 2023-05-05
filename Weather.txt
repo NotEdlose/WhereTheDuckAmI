@@ -1,0 +1,37 @@
+/**
+
+*The Weather class retrieves current weather data from the OpenWeatherMap API
+
+*for a specified city using the city ID and API key provided during instantiation.
+*/
+
+/**
+*Weather:
+*Constructs a new Weather object with the specified API key and city ID.
+*Automatically retrieves the weather data for the specified city.
+*@param apiKey The API key to access the OpenWeatherMap API.
+*@param city The city ID for the desired city's weather data.
+*/
+/**
+*getWeatherData:
+*Private method to retrieve the weather data from the OpenWeatherMap API
+*for the city specified during instantiation.
+*Populates the temperature and weather widget URL fields.
+*/
+/**
+*getTemperature:
+*Returns the current temperature for the specified city.
+*@return The current temperature in degrees Celsius.
+*/
+/**
+*getWeatherWidgetUrl:
+*Returns the URL for the weather widget icon for the specified city.
+*@return The URL for the weather widget icon.
+*/
+/**
+*main:
+*Main method used for testing the Weather class.
+*Constructs a new Weather object and retrieves the weather data for the specified city.
+*Prints the current temperature to the console.
+*@param args The command line arguments.
+*/

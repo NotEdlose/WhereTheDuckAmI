@@ -1,0 +1,32 @@
+/**
+ *
+ * @author edwinor
+ */
+/**
+
+*The WeatherApp class is a JPanel that displays the current weather for a specific city.
+
+*It contains a Weather object that is initialized with an API key and city ID to retrieve weather data from OpenWeatherMap.
+
+*The panel displays an icon representing the current weather condition and the current temperature in Celsius.
+
+*@author [Your Name]
+
+*@version [Version Number]
+*/
+/**
+*WeatherApp:
+*Constructor for WeatherApp class.
+
+*Initializes the Weather object with an API key and city ID.
+
+*Creates the icon label and temperature label based on the weather data.
+
+*Sets the layout and background color of the panel.
+*/
+/**
+*Main:
+*Main method for WeatherApp class.
+*Creates a JFrame and adds the WeatherApp panel to it.
+*@param args arguments for main method (not used)
+*/
